@@ -1,7 +1,7 @@
 {
-  "name": "browser-sync-jekyll",
+  "name": "AlouaneMed",
   "version": "0.0.0",
-  "description": "A starter project including full setup for Jekyll, GulpJS, SASS & BrowserSync",
+  "description": "Alouane Mohamed ",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shakyShane/jekyll-gulp-sass-browser-sync.git"
+    "url": "https://github.com/alouanemed/alouanemed.github.io.git"
   },
   "keywords": [
     "jekyll",
@@ -26,7 +26,7 @@
     "browsersync"
   ],
   "bugs": {
-    "url": "https://github.com/shakyShane/jekyll-gulp-sass-browser-sync/issues"
+    "url": "https://github.com/alouanemed/alouanemed.github.io/issues"
   },
-  "homepage": "https://github.com/shakyShane/jekyll-gulp-sass-browser-sync"
+  "homepage": "https://github.com/alouanemed/alouanemed.github.io/"
 }
