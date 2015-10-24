@@ -1,3 +1,19 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Fira Sans"), local("FiraSans-Regular"), url(http://fonts.gstatic.com/s/firasans/v5/MIPWVWI_mY_QERxcMVPEwBJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");
+  unicode-range: U100-24F, U1E -1EFF, U20A -20AB, U20AD-20CF, U2C 58C 7F, UA720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Fira Sans"), local("FiraSans-Regular"), url(http://fonts.gstatic.com/s/firasans/v5/EjsrzDkQUQCDwsBtLpcVQVtXRa8TVwTICgirnJhmVJw.woff2) format("woff2");
+  unicode-range: U0-0FF, U131, U152-153, U2C 6, U2DA, U2DC, U2000-206F, U2074, U20AC, U2212, U2215, UE0FF, UEFFD, UF000; }
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -443,6 +459,10 @@ hr {
   margin: 10px 0 30px;
   height: 0; }
 
+.home-lead {
+  font-size: 36px;
+  line-height: 1; }
+
 .button,
 button,
 input[type="submit"],
@@ -632,7 +652,25 @@ input[type="button"] {
             transform: translateY(0%); } }
 
 section.about {
-  background: red; }
+  background-image: url(../img/about-hero-bg.jpg);
+  background-position: center bottom;
+  background-size: cover; }
+  section.about h2 {
+    color: #3f3f42;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 1;
+    margin-right: -108px;
+    margin-top: 0; }
+  section.about .home-lead {
+    padding-bottom: 120px;
+    color: #ddd; }
+
+@media (max-width: 640px) {
+  section.about h2, section.about .home-lead {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px; } }
 
 .home-wrapper {
   display: -webkit-box;
@@ -678,17 +716,18 @@ section.about {
 
 .col-1 {
   max-width: 300px;
-  margin: 0 10px;
-  background: pink; }
+  margin: 0 10px; }
 
 .col-2 {
   max-width: 620px;
-  margin: 0 10px;
-  background: honeydew; }
+  margin: 0 10px; }
 
 .col-50 {
   width: 50%;
   background: yellow; }
+
+.push-left {
+  margin-right: 330px; }
 
 @media (max-width: 640px) {
   .home-sections .flexy {
@@ -696,4 +735,6 @@ section.about {
   .col-1 {
     max-width: 100%; }
   .col-50 {
-    width: auto; } }
+    width: auto; }
+  .push-left {
+    margin-right: 10px; } }
