@@ -1,5 +1,6 @@
 $(window).scroll(function () {
   ytVideoScroll();
+  console.log('heu');
 });
 
 function ytVideoScroll() {
