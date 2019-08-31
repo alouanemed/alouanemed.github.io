@@ -8,6 +8,7 @@ paginate: 3
 paginate_path: "/blog/page/:num/"
 comments: true
 
+source  : ./source
 
 destination: _site
 sass:
@@ -16,8 +17,8 @@ sass:
 
 # SEO settings
 title: Mohamed Alouane
-description: "Mohamed Alouane, a Web and Mobile developer"
-keywords: "alouanemed,alouane med, alouane mohamed"
+description: "Mohamed Alouane, Android and iOS Developer, Youth Projects Manager"
+keywords: "alouanemed, alouane med, alouane mohamed, 3louane"
 url: http://malouane.com
 baseurl: ""
 # baseurl: ""
@@ -30,8 +31,8 @@ disqus_site_shortname: "alouanemed"
 # Author settings
 author:
   name      : Mohamed Alouane
-  job       : Rails developer and Full stack Android developer
-  bio       : "A deeply motivated and passionated Robot with feelings, a lot of them. Ruby On Rails and Java developer, Android Ninja, Active OSS contributor and Git power user.Always looking for the best project and good coffee."
+  job       : Android and iOS Developer, Youth Projects Manager
+  bio       : "Hi, I am Mohamed, a Full-Stack Android and iOS Developer, with more than 3 years of professional experience, passionate about building mobile apps for sustainable development. I recently led the development of a transactional marketplace for a sustainable textile sourcing in Android and iOS."
   thumb     : /images/author.jpg
   email     : 3louane@gmail.com
   url       : http://malouane.com
@@ -51,7 +52,7 @@ navbar:
   - slug: blog
     title: Blog
 
-gems:
+plugins:
   - jekyll-seo-tag
   - jekyll-paginate
 
